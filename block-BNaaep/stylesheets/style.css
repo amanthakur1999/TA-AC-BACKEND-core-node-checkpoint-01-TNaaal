@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  height: 100vh;
+  /* text-align: center; */
+  font-family: 'Roboto', sans-serif;
+}
+header h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}
+.text p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: start;
+}
+.parent-box {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.box img {
+  width: 100%;
+  height: 400px;
+}
+/* about page */
+.about img {
+  width: 17%;
+  height: 200px;
+}
+button {
+  padding: 9px 20px;
+}
+
+.about-text p {
+  padding-right: 30rem;
+}
+
+/* form page */
+form {
+  width: 30%;
+  margin: 150px auto;
+  text-align: center;
+  border: 1px solid grey;
+}
+input {
+  width: 90%;
+  padding: 9px 10px;
+  margin: 10px 0;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.486);
+}
